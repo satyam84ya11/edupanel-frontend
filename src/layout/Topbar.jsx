@@ -1,4 +1,4 @@
-import { useAuth } from '../../context/AuthContext.jsx';
+import { useAuth } from '../context/AuthContext.jsx';
 
 export const Topbar = () => {
   const { user, school, logout } = useAuth();
@@ -18,7 +18,7 @@ export const Topbar = () => {
         </div>
         <button
           onClick={logout}
-          className="rounded-md border border-blue-200 bg-white px-3 py-1.5 text-xs font-medium text-primary shadow-sm hover:bg-blue-50"
+          className="rounded-md border border-blue-200 bg-white px-3 py-1.5 text-xs font-medium text-blue-600 shadow-sm hover:bg-blue-50"
         >
           Logout
         </button>

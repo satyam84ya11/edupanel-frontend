@@ -1,7 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout/Layout";
-import LoginPage from "./pages/auth/LoginPage";
-import Dashboard from "./pages/dashboard/Dashboard";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './layout/Layout.jsx';
+import LoginPage from './pages/auth/LoginPage.jsx';
+import Dashboard from './pages/dashboard/Dashboard.jsx';
 
 function App() {
   return (

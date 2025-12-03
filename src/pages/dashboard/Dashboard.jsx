@@ -1,4 +1,4 @@
-import { DashboardLayout } from '../../components/Layout/DashboardLayout.jsx';
+import { DashboardLayout } from '../../layout/DashboardLayout.jsx';
 
 const Dashboard = () => {
   // Placeholder values; you can later fetch from /admin/dashboard-summary
